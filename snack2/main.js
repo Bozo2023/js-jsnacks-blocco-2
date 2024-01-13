@@ -6,7 +6,10 @@ function Random(min,max){
         if(NumGuest>Random){
             console.log("il numero è troppo alto:riprova di nuovo"  )
         } else if(NumGuest<Random){
-            
-            
+            console.log("il numero è troppo basso:riprova di nuovo"  )
+            } 
+        else {
+            console.log("Bravo:hai trovato il numero giusto"  )
+
         }
     }
